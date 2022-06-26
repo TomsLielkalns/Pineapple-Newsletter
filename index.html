@@ -17,8 +17,8 @@
             <header>
                 <div class="header-container">
                     <div class="header-icons">
-                        <img src="img/pineapple.svg">
-                        <img class="pineapple-text" src="img/pineapple_text.svg">
+                        <img src="img/pineapple.svg" alt="">
+                        <img class="pineapple-text" src="img/pineapple_text.svg" alt="">
                     </div>
                     <nav>
                         <ul>
@@ -39,22 +39,21 @@
                         <form>
                             <div class="email-input">
                                 <div id="email-line"></div>
-                                <input onchange="validateEmail()" type="text" id="email" name="email" placeholder="Type your email address here…"></input>
+                                <input onchange="validateEmail()" type="text" id="email" name="email" placeholder="Type your email address here…">
                                 <button onclick="event.preventDefault(); submit_form();" type="submit" value="" id="submit" class="submit" disabled><i class="fa-solid fa-arrow-right-long"></i></button>
                             </div>
                             <p id="email-error1" class="email-error1"><small>E-mail address is empty</small></p>
                             <p id="email-error2" class="email-error2"><small>We are currently not accepting emails from Colombia</small></p>
                             <p id="email-error3" class="email-error3"><small>E-mail is invalid</small></p>
                             <div class="tos">
-                                <input onchange="validateTOS()" type="checkbox" id="ToS" name="ToS"></input>
+                                <input onchange="validateTOS()" type="checkbox" id="ToS" name="ToS">
                                 <h3 class="tos-text">I agree to <a href="#" class="section">terms of service</a></h3>
                             </div>
                             <p id="checkbox-error" class="checkbox-error"><small>You must accept the terms of service</small></p>
                         </form>
-                        </div>
                     </div>
                     <div id="successful-subscription">
-                        <img src="img/cup.svg" alt="cup" class="cup"></img>
+                        <img src="img/cup.svg" alt="cup" class="cup">
                         <h1>Thanks for subscribing!</h1>
                         <h2>You have successfully subscribed to our email listing. Check your email for the discount code.</h2>
                     </div>
