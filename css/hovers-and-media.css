@@ -1,0 +1,211 @@
+@media (min-width: 475px) {
+
+    body {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    header {
+        max-width: 42.5em;
+        background-color: transparent;
+    }
+
+    .pineapple-text {
+        display: inline;
+    }
+
+    .widget {
+        max-width: 42.5em;
+    }
+}
+
+@media (min-width: 1530px) {
+
+    h2 {
+        max-width: 27em;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sidebar {
+        background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+        width: 35%;
+    }
+
+    header {
+        position: absolute;
+        margin: 5%;
+    }
+
+    h1, h2, input[type=checkbox] {
+        margin-left: 3.5rem;
+    }
+
+    h2 {
+        margin-bottom: 3em;
+    }
+
+    .submit {
+        top: -0.45em;
+        padding: 1.5em;
+        right: -1%;
+    }
+
+    .tos-text, input[type=checkbox] {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    input[type=text] {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .widget {
+        background: transparent;
+        left: 26em;
+        max-width: 45em;
+    }
+
+    .line{
+        left: 5em;
+        right: 15em;
+    }
+
+    .social-icons {
+        max-width: 75%;
+    }
+
+    .successful-subscription {
+        padding: 1em 3em;
+        max-width: 60%;
+    }
+
+    .cup{
+        padding: 0 3em;
+    }
+}
+
+.section:hover{
+    color: #4066A5;
+}
+.section:focus{
+    color: #233759;
+}
+
+input[type=text]:hover {
+    border: 1px solid #4066A5;
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+input[type=text]:hover ~ .submit {
+    color: #4066A5;
+    opacity: 1;
+}
+
+input[type=text]:focus {
+    box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.submit:disabled {
+    cursor: not-allowed;
+}
+
+.fb:hover {
+    background: #4267B2;
+    border-color: transparent;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+.fb:hover .fa-facebook-f {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.ig:hover {
+    background: #C13584;
+    border-color: transparent;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+.ig:hover .fa-instagram {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.tw:hover {
+    background: #1DA1F2;
+    border-color: transparent;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+.tw:hover .fa-twitter {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.yt:hover {
+    background: #FF0000;;
+    border-color: transparent;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+.yt:hover .fa-youtube {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.fb:focus {
+    border-color: transparent;
+    opacity: 1;
+    background: #2F4A80;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+.fb:focus .fa-facebook-f {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.ig:focus {
+    border-color: transparent;
+    opacity: 1;
+    background: #8F2762;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+.ig:focus .fa-instagram {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.tw:focus {
+    border-color: transparent;
+    opacity: 1;
+    background: #177FBF;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+.tw:focus .fa-twitter {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.yt:focus {
+    border-color: transparent;
+    opacity: 1;
+    background: #CC0000;
+    box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
+}
+.yt:focus .fa-youtube {
+    color: #FFFFFF;
+    opacity: 1;
+}

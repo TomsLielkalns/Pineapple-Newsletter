@@ -1,0 +1,173 @@
+h1 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
+}
+
+h2 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.625rem;
+    color: #6A707B;
+}
+
+h3 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: #6A707B;
+}
+
+
+.bg-image {
+    background-image: url(../img/summer.jpg);
+    background-size: cover;
+    flex-grow: 1;
+    background-position: 45% 75%;
+}
+
+.widget {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+    width: 92%;
+    position: absolute;
+    padding: 1em 0;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.widget-contents {
+    padding: 0 1.5em;
+}
+
+.email-input {
+    position: relative;
+}
+
+#email-line {
+    background: #4066A5;
+    position: absolute;
+    height: 100%;
+    width: 0.4em;
+}
+
+input[type=text] {
+    width: 95%;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    height: 4.2em;
+    text-indent: 1rem;
+}
+
+input[type=text]:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+input[type=text]:-webkit-autofill{
+    box-shadow: 0 0 0 1000px white inset !important;
+}
+
+/* light arrow right is a premium icon from "Font Awsome", so i used the regular one */
+.submit {
+    background-color: transparent;
+    border: none;
+    color: #131821;
+    opacity: 0.3;
+    font-size: 1.5rem;
+    right: 5%;
+    top: 0.7em;
+    position: absolute;
+}
+
+input[type="checkbox"] {
+    appearance: initial;
+    outline: 1px solid #A9A9A9;
+    border-radius: 0.3em;
+    width: 2em;
+    height: 2em;
+    background: #FFFFFF;
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background: #4066A5;
+}
+
+input[type=checkbox]:checked:after {
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    content: "\f00c";
+    color: #FFFFFF;
+    font-size: 1.4em;
+    transform: translate(-50%, -50%);
+}
+
+.tos {
+    display: flex;
+    align-items: center;
+}
+
+.tos-text {
+    margin-left: 0.875em;
+}
+
+.section {
+    text-decoration: none;
+    color: #131821;
+    text-decoration: underline;
+}
+
+.email-error1, .email-error2, .email-error3, .checkbox-error {
+    color: #B80808;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    display: none;
+}
+
+.line {
+    position: absolute;
+    border-bottom: 1px solid #E3E3E4;
+    left: 2em;
+    right: 2em;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    margin: 2em 3%;
+    border: 2px solid #E3E3E4;
+    border-radius: 2em;
+    padding: 0.6em;
+    text-decoration: none;
+}
+
+.icon i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #131821;
+    opacity: 0.4;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+#successful-subscription {
+    padding: 0.5em 1.9em;
+    display: none;
+}
