@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/716ac7084f.js" crossorigin="anonymous"></script>
+    <script src="validation.js"></script>
+    <title>Pineapple Newsletter</title>
+</head>
+<body>
+    <section class="container">
+        <div class="sidebar">
+            <header>
+                <div class="header-container">
+                    <div class="header-icons">
+                        <img src="img/pineapple.svg">
+                        <img class="pineapple-text" src="img/pineapple_text.svg">
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">How it works</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <div class="bg-image">
+            <div class="widget">
+                <div class="widget-contents">
+                    <div id="email-submission">
+                        <h1>Subscribe to newsletter</h1>
+                        <h2>Subscribe to our newsletter and get 10% discount on pineapple glasses.</h2>
+                        <form>
+                            <div class="email-input">
+                                <div id="email-line"></div>
+                                <input onchange="validateEmail()" type="text" id="email" name="email" placeholder="Type your email address here…"></input>
+                                <button onclick="event.preventDefault(); submit_form();" type="submit" value="" id="submit" class="submit" disabled><i class="fa-solid fa-arrow-right-long"></i></button>
+                            </div>
+                            <p id="email-error1" class="email-error1"><small>E-mail address is empty</small></p>
+                            <p id="email-error2" class="email-error2"><small>We are currently not accepting emails from Colombia</small></p>
+                            <p id="email-error3" class="email-error3"><small>E-mail is invalid</small></p>
+                            <div class="tos">
+                                <input onchange="validateTOS()" type="checkbox" id="ToS" name="ToS"></input>
+                                <h3 class="tos-text">I agree to <a href="#" class="section">terms of service</a></h3>
+                            </div>
+                            <p id="checkbox-error" class="checkbox-error"><small>You must accept the terms of service</small></p>
+                        </form>
+                        </div>
+                    </div>
+                    <div id="successful-subscription">
+                        <img src="img/cup.svg" alt="cup" class="cup"></img>
+                        <h1>Thanks for subscribing!</h1>
+                        <h2>You have successfully subscribed to our email listing. Check your email for the discount code.</h2>
+                    </div>
+                    <div class="line"></div>
+                    <div class="social-icons">
+                        <a href="#" class="icon fb"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="icon ig"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="icon tw"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="icon yt"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
