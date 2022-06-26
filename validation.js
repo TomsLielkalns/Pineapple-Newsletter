@@ -40,6 +40,7 @@ function validateEmail() {
             }
         }
         else {
+            emailError2.style.display = "none";
             emailError3.style.display = "block";
             emailSuccess = false;
             emailLine.style.background = "#B80808";
@@ -48,6 +49,7 @@ function validateEmail() {
     }
     else{
         emailError3.style.display = "none";
+        emailError2.style.display = "none";
         emailError1.style.display = "block";
         emailSuccess = false;
         emailLine.style.background = "#B80808";
