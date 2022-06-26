@@ -23,23 +23,26 @@ function validateEmail() {
     var columbiaEmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(.co)$/; 
 
     if(email){
-        emailError1.style.display = "none";
         if(email.match(validEmail)){
-            emailError3.style.display = "none";
             if(email.match(columbiaEmail)){
+                emailError1.style.display = "none";
                 emailError2.style.display = "block";
+                emailError3.style.display = "none";
                 emailSuccess = false;
                 emailLine.style.background = "#B80808";
                 emailBox.style.border = "1px solid #B80808";
             }
             else{
+                emailError1.style.display = "none";
                 emailError2.style.display = "none";
+                emailError3.style.display = "none";
                 emailSuccess = true;
                 emailLine.style.background = "#4066A5";
                 emailBox.style.border = "1px solid #E3E3E4";
             }
         }
         else {
+            emailError1.style.display = "none";
             emailError2.style.display = "none";
             emailError3.style.display = "block";
             emailSuccess = false;
@@ -48,9 +51,9 @@ function validateEmail() {
         }
     }
     else{
-        emailError3.style.display = "none";
-        emailError2.style.display = "none";
         emailError1.style.display = "block";
+        emailError2.style.display = "none";
+        emailError3.style.display = "none";
         emailSuccess = false;
         emailLine.style.background = "#B80808";
         emailBox.style.border = "1px solid #B80808";
