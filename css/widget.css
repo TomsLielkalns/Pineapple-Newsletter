@@ -24,7 +24,6 @@ h3 {
     color: #6A707B;
 }
 
-
 .bg-image {
     background-image: url(../img/summer.jpg);
     background-size: cover;
@@ -137,10 +136,9 @@ input[type=checkbox]:checked:after {
 }
 
 .line {
-    position: absolute;
+    display: flex;
     border-bottom: 1px solid #E3E3E4;
-    left: 2em;
-    right: 2em;
+    max-width: 96%;
 }
 
 .social-icons {
@@ -168,6 +166,6 @@ input[type=checkbox]:checked:after {
 }
 
 #successful-subscription {
-    padding: 0.5em 1.9em;
+    padding: 1.5em 0.4em;
     display: none;
 }

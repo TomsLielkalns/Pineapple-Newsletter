@@ -78,17 +78,21 @@
         max-width: 45em;
     }
 
+    .widget-contents {
+        display: flex;
+        flex-direction: column;
+    }
+
     .line{
-        left: 5em;
-        right: 15em;
+        margin-left: 8%;
+        max-width: 60%;
     }
 
     .social-icons {
         max-width: 75%;
     }
 
-    .successful-subscription {
-        padding: 1em 3em;
+    h2 {
         max-width: 60%;
     }
 
