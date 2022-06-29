@@ -124,10 +124,8 @@ input[type=text]:focus {
 
 .submit:hover {
     cursor: pointer;
-}
-
-.submit:disabled {
-    cursor: not-allowed;
+    color: #4066A5;
+    opacity: 1;
 }
 
 .fb:hover {
